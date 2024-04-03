@@ -385,10 +385,10 @@ export const contactDetails = [
 export const timeline = [
   {
     id: 1,
-    title: "Senior Web Developer",
-    duration: "2018 - Present",
+    title: "Junior Security Software Developer",
+    duration: "2023 - 2024",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.",
+      "Malopan Communications - Montréal, Canada",
   },
   {
     id: 2,
@@ -399,17 +399,24 @@ export const timeline = [
   },
   {
     id: 3,
-    title: "Junior Web Developer",
-    duration: "2013 - 2015",
+    title: "Master's degree in Information Systems Security",
+    duration: "2016 - 2018",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.",
+      "International University of Rabat - Rabat, Morocco",
   },
   {
     id: 4,
-    title: "Degree in Computer Science",
-    duration: "2010 - 2013",
+    title: "Bachelor degree in Computer Engineering",
+    duration: "2013 - 2016",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.",
+      "International University of Rabat - Rabat, Morocco",
+  },
+  {
+    id: 4,
+    title: "University Diploma (DEUG)",
+    duration: "2013 - 2015",
+    description:
+      "University of Nantes - Nantes, Frances",
   },
   
 ];
