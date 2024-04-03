@@ -11,7 +11,7 @@ const Footer = () => {
                 Iliass Ben.
             </Link>
             <nav className='flex gap-12 max-tablet:hidden'>
-                <ul className='flex text-white items-center gap-10'>
+                <ul className='flex text-white items-center gap-8'>
                     {navLinks.map((link, index) => (
                         <li key={index} >
                             <NavLink className="text-white" href={link.url} label={link.label} />
