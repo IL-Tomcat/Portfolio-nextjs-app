@@ -13,6 +13,7 @@
     "mssql": "^10.0.2",
     "next": "14.1.4",
     "react": "^18",
+    "react-bootstrap": "^2.10.2",
     "react-dom": "^18",
     "swiper": "^11.1.0"
   },
