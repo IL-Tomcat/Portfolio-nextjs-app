@@ -1,0 +1,72 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@media screen and (min-width: 320px) {
+    html {
+        font-size: calc(14px + 1 * ((100vw - 320px) / 680));
+    }
+}
+
+@media screen and (min-width: 1040px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+@layer base {
+    h1 {
+        @apply text-5xl font-bold;
+    }
+
+    h2 {
+        @apply text-4xl font-bold;
+    }
+
+    h3 {
+        @apply text-3xl font-semibold;
+    }
+
+    h4 {
+        @apply text-2xl font-semibold;
+    }
+
+    h5 {
+        @apply text-xl font-semibold;
+    }
+
+    h6 {
+        @apply font-semibold;
+    }
+
+}
+
+@layer utilities {
+    .max-width {
+        @apply max-w-[1920px] mx-auto px-[16px] tablet:px-[80px] desktop:px-[162px];
+    }
+
+    .section-padding {
+        @apply py-[30px] tablet:py-[40px] desktop:py-[60px];
+    }
+
+    .box {
+        @apply bg-peach-400 p-8 tablet:p-12 rounded-lg
+    }
+
+    .btn {
+        @apply flex items-center justify-center gap-2 rounded px-5 py-3.5 capitalize text-grey-700;
+    }
+
+    .btn-primary {
+        @apply text-peach-100 bg-purple;
+    }
+
+    input,
+    textarea {
+        @apply w-full rounded px-6 py-4 border border-peach-700 bg-white outline-none text-sm text-black
+    }
+}
+
+
